@@ -17,8 +17,8 @@ const isUserMessage = message.get("ethAddress") === user.get('ethAddress');
     </div>
 
     <div className={`flex space-x-4 p-3 rounded-lg ${
-         isUserMessage ? 'rounded-br-none bg-gray-400' :
-         "rounded-bl-none bg-blue-400"
+         isUserMessage ? 'rounded-br-none bg-gray-300' :
+         "rounded-bl-none bg-blue-600"
     }`}>
         <p>{message.get('message')}</p>
     </div>
